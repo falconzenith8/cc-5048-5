@@ -1,0 +1,21 @@
+{
+  "policy": "skip",
+  "ticks": 181,
+  "underruns": 32,
+  "holds": 0,
+  "skips": 32,
+  "late_frames_presented": 63,
+  "max_av_offset_s": 0.9658,
+  "mean_av_offset_s": 0.0452,
+  "cache_peak_bytes": 322200,
+  "cache_cap_bytes": 67108864,
+  "cache_evictions": 0,
+  "stale_frames_dropped": 2,
+  "read_rate": 1.0,
+  "loop_window": [
+    4.0,
+    6.0
+  ],
+  "submitted_unique_frames": 32,
+  "submitted_all_in_current_region": true
+}

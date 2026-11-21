@@ -1,0 +1,1951 @@
+{
+  "policy": "hold",
+  "trace": [
+    {
+      "t_audio": 0.034,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 0,
+      "inflight": 25
+    },
+    {
+      "t_audio": 0.077,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 0,
+      "inflight": 25
+    },
+    {
+      "t_audio": 0.12,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 0,
+      "inflight": 25
+    },
+    {
+      "t_audio": 0.164,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 0,
+      "inflight": 26
+    },
+    {
+      "t_audio": 0.2,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 9585,
+      "inflight": 25
+    },
+    {
+      "t_audio": 0.235,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 154920,
+      "inflight": 13
+    },
+    {
+      "t_audio": 0.269,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 252390,
+      "inflight": 5
+    },
+    {
+      "t_audio": 0.305,
+      "presented": 3,
+      "av_offset": 0.055,
+      "underrun": false,
+      "cache_bytes": 302745,
+      "inflight": 3
+    },
+    {
+      "t_audio": 0.34,
+      "presented": 4,
+      "av_offset": 0.007,
+      "underrun": false,
+      "cache_bytes": 302745,
+      "inflight": 3
+    },
+    {
+      "t_audio": 0.377,
+      "presented": 4,
+      "av_offset": 0.044,
+      "underrun": false,
+      "cache_bytes": 299310,
+      "inflight": 3
+    },
+    {
+      "t_audio": 0.411,
+      "presented": 4,
+      "av_offset": 0.077,
+      "underrun": false,
+      "cache_bytes": 299310,
+      "inflight": 3
+    },
+    {
+      "t_audio": 0.447,
+      "presented": 5,
+      "av_offset": 0.03,
+      "underrun": false,
+      "cache_bytes": 309225,
+      "inflight": 2
+    },
+    {
+      "t_audio": 0.487,
+      "presented": 5,
+      "av_offset": 0.07,
+      "underrun": false,
+      "cache_bytes": 309225,
+      "inflight": 3
+    },
+    {
+      "t_audio": 0.526,
+      "presented": 6,
+      "av_offset": 0.026,
+      "underrun": false,
+      "cache_bytes": 309600,
+      "inflight": 2
+    },
+    {
+      "t_audio": 0.566,
+      "presented": 6,
+      "av_offset": 0.066,
+      "underrun": false,
+      "cache_bytes": 309600,
+      "inflight": 3
+    },
+    {
+      "t_audio": 0.602,
+      "presented": 7,
+      "av_offset": 0.019,
+      "underrun": false,
+      "cache_bytes": 311760,
+      "inflight": 2
+    },
+    {
+      "t_audio": 0.646,
+      "presented": 7,
+      "av_offset": 0.062,
+      "underrun": false,
+      "cache_bytes": 311760,
+      "inflight": 3
+    },
+    {
+      "t_audio": 0.686,
+      "presented": 8,
+      "av_offset": 0.019,
+      "underrun": false,
+      "cache_bytes": 317310,
+      "inflight": 2
+    },
+    {
+      "t_audio": 0.723,
+      "presented": 8,
+      "av_offset": 0.057,
+      "underrun": false,
+      "cache_bytes": 317310,
+      "inflight": 3
+    },
+    {
+      "t_audio": 0.762,
+      "presented": 9,
+      "av_offset": 0.012,
+      "underrun": false,
+      "cache_bytes": 319620,
+      "inflight": 2
+    },
+    {
+      "t_audio": 0.801,
+      "presented": 9,
+      "av_offset": 0.051,
+      "underrun": false,
+      "cache_bytes": 319695,
+      "inflight": 2
+    },
+    {
+      "t_audio": 0.836,
+      "presented": 10,
+      "av_offset": 0.003,
+      "underrun": false,
+      "cache_bytes": 319695,
+      "inflight": 2
+    },
+    {
+      "t_audio": 0.874,
+      "presented": 10,
+      "av_offset": 0.04,
+      "underrun": false,
+      "cache_bytes": 319695,
+      "inflight": 3
+    },
+    {
+      "t_audio": 0.91,
+      "presented": 10,
+      "av_offset": 0.077,
+      "underrun": false,
+      "cache_bytes": 313320,
+      "inflight": 2
+    },
+    {
+      "t_audio": 0.944,
+      "presented": 11,
+      "av_offset": 0.027,
+      "underrun": false,
+      "cache_bytes": 313320,
+      "inflight": 2
+    },
+    {
+      "t_audio": 0.978,
+      "presented": 11,
+      "av_offset": 0.061,
+      "underrun": false,
+      "cache_bytes": 307860,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.017,
+      "presented": 12,
+      "av_offset": 0.017,
+      "underrun": false,
+      "cache_bytes": 307860,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.053,
+      "presented": 12,
+      "av_offset": 0.053,
+      "underrun": false,
+      "cache_bytes": 305505,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.087,
+      "presented": 13,
+      "av_offset": 0.004,
+      "underrun": false,
+      "cache_bytes": 305505,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.13,
+      "presented": 13,
+      "av_offset": 0.047,
+      "underrun": false,
+      "cache_bytes": 305505,
+      "inflight": 3
+    },
+    {
+      "t_audio": 1.174,
+      "presented": 14,
+      "av_offset": 0.007,
+      "underrun": false,
+      "cache_bytes": 307005,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.209,
+      "presented": 14,
+      "av_offset": 0.042,
+      "underrun": false,
+      "cache_bytes": 307005,
+      "inflight": 3
+    },
+    {
+      "t_audio": 1.247,
+      "presented": 14,
+      "av_offset": 0.08,
+      "underrun": false,
+      "cache_bytes": 307005,
+      "inflight": 3
+    },
+    {
+      "t_audio": 1.289,
+      "presented": 15,
+      "av_offset": 0.039,
+      "underrun": false,
+      "cache_bytes": 310590,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.324,
+      "presented": 15,
+      "av_offset": 0.074,
+      "underrun": false,
+      "cache_bytes": 314295,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.358,
+      "presented": 16,
+      "av_offset": 0.024,
+      "underrun": false,
+      "cache_bytes": 314295,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.391,
+      "presented": 16,
+      "av_offset": 0.058,
+      "underrun": false,
+      "cache_bytes": 314295,
+      "inflight": 3
+    },
+    {
+      "t_audio": 1.434,
+      "presented": 17,
+      "av_offset": 0.017,
+      "underrun": false,
+      "cache_bytes": 314295,
+      "inflight": 3
+    },
+    {
+      "t_audio": 1.468,
+      "presented": 17,
+      "av_offset": 0.051,
+      "underrun": false,
+      "cache_bytes": 294795,
+      "inflight": 3
+    },
+    {
+      "t_audio": 1.502,
+      "presented": 18,
+      "av_offset": 0.002,
+      "underrun": false,
+      "cache_bytes": 294795,
+      "inflight": 3
+    },
+    {
+      "t_audio": 1.543,
+      "presented": 18,
+      "av_offset": 0.043,
+      "underrun": false,
+      "cache_bytes": 294795,
+      "inflight": 4
+    },
+    {
+      "t_audio": 1.58,
+      "presented": 18,
+      "av_offset": 0.08,
+      "underrun": false,
+      "cache_bytes": 302865,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.622,
+      "presented": 19,
+      "av_offset": 0.039,
+      "underrun": false,
+      "cache_bytes": 302865,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.666,
+      "presented": 19,
+      "av_offset": 0.082,
+      "underrun": false,
+      "cache_bytes": 300210,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.701,
+      "presented": 20,
+      "av_offset": 0.035,
+      "underrun": false,
+      "cache_bytes": 300210,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.745,
+      "presented": 20,
+      "av_offset": 0.078,
+      "underrun": false,
+      "cache_bytes": 300210,
+      "inflight": 3
+    },
+    {
+      "t_audio": 1.781,
+      "presented": 21,
+      "av_offset": 0.031,
+      "underrun": false,
+      "cache_bytes": 300210,
+      "inflight": 3
+    },
+    {
+      "t_audio": 1.824,
+      "presented": 21,
+      "av_offset": 0.074,
+      "underrun": false,
+      "cache_bytes": 300210,
+      "inflight": 4
+    },
+    {
+      "t_audio": 1.858,
+      "presented": 22,
+      "av_offset": 0.025,
+      "underrun": false,
+      "cache_bytes": 300210,
+      "inflight": 4
+    },
+    {
+      "t_audio": 1.894,
+      "presented": 22,
+      "av_offset": 0.06,
+      "underrun": false,
+      "cache_bytes": 300210,
+      "inflight": 5
+    },
+    {
+      "t_audio": 1.946,
+      "presented": 23,
+      "av_offset": 0.029,
+      "underrun": false,
+      "cache_bytes": 300210,
+      "inflight": 5
+    },
+    {
+      "t_audio": 1.985,
+      "presented": 23,
+      "av_offset": 0.068,
+      "underrun": false,
+      "cache_bytes": 266730,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.019,
+      "presented": 24,
+      "av_offset": 0.019,
+      "underrun": false,
+      "cache_bytes": 266730,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.052,
+      "presented": 24,
+      "av_offset": 0.052,
+      "underrun": false,
+      "cache_bytes": 262650,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.091,
+      "presented": 25,
+      "av_offset": 0.008,
+      "underrun": false,
+      "cache_bytes": 274440,
+      "inflight": 4
+    },
+    {
+      "t_audio": 2.132,
+      "presented": 25,
+      "av_offset": 0.049,
+      "underrun": false,
+      "cache_bytes": 274440,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.175,
+      "presented": 26,
+      "av_offset": 0.009,
+      "underrun": false,
+      "cache_bytes": 274440,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.216,
+      "presented": 26,
+      "av_offset": 0.049,
+      "underrun": false,
+      "cache_bytes": 274440,
+      "inflight": 6
+    },
+    {
+      "t_audio": 2.259,
+      "presented": 27,
+      "av_offset": 0.009,
+      "underrun": false,
+      "cache_bytes": 260460,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.3,
+      "presented": 27,
+      "av_offset": 0.05,
+      "underrun": false,
+      "cache_bytes": 263115,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.334,
+      "presented": 28,
+      "av_offset": 0.001,
+      "underrun": false,
+      "cache_bytes": 325260,
+      "inflight": 4
+    },
+    {
+      "t_audio": 2.371,
+      "presented": 28,
+      "av_offset": 0.038,
+      "underrun": false,
+      "cache_bytes": 327135,
+      "inflight": 4
+    },
+    {
+      "t_audio": 2.413,
+      "presented": 28,
+      "av_offset": 0.08,
+      "underrun": false,
+      "cache_bytes": 388995,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.452,
+      "presented": 29,
+      "av_offset": 0.035,
+      "underrun": false,
+      "cache_bytes": 404505,
+      "inflight": 2
+    },
+    {
+      "t_audio": 2.495,
+      "presented": 29,
+      "av_offset": 0.079,
+      "underrun": false,
+      "cache_bytes": 404505,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.534,
+      "presented": 30,
+      "av_offset": 0.034,
+      "underrun": false,
+      "cache_bytes": 408975,
+      "inflight": 2
+    },
+    {
+      "t_audio": 2.569,
+      "presented": 30,
+      "av_offset": 0.069,
+      "underrun": false,
+      "cache_bytes": 408975,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.612,
+      "presented": 31,
+      "av_offset": 0.028,
+      "underrun": false,
+      "cache_bytes": 408600,
+      "inflight": 2
+    },
+    {
+      "t_audio": 2.65,
+      "presented": 31,
+      "av_offset": 0.066,
+      "underrun": false,
+      "cache_bytes": 408600,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.689,
+      "presented": 32,
+      "av_offset": 0.022,
+      "underrun": false,
+      "cache_bytes": 403440,
+      "inflight": 2
+    },
+    {
+      "t_audio": 2.732,
+      "presented": 32,
+      "av_offset": 0.065,
+      "underrun": false,
+      "cache_bytes": 399450,
+      "inflight": 2
+    },
+    {
+      "t_audio": 2.768,
+      "presented": 33,
+      "av_offset": 0.017,
+      "underrun": false,
+      "cache_bytes": 399450,
+      "inflight": 2
+    },
+    {
+      "t_audio": 2.809,
+      "presented": 33,
+      "av_offset": 0.059,
+      "underrun": false,
+      "cache_bytes": 399450,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.842,
+      "presented": 34,
+      "av_offset": 0.009,
+      "underrun": false,
+      "cache_bytes": 399450,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.884,
+      "presented": 34,
+      "av_offset": 0.051,
+      "underrun": false,
+      "cache_bytes": 390480,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.928,
+      "presented": 35,
+      "av_offset": 0.011,
+      "underrun": false,
+      "cache_bytes": 390480,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.962,
+      "presented": 35,
+      "av_offset": 0.045,
+      "underrun": false,
+      "cache_bytes": 392520,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.002,
+      "presented": 36,
+      "av_offset": 0.001,
+      "underrun": false,
+      "cache_bytes": 409290,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.036,
+      "presented": 36,
+      "av_offset": 0.036,
+      "underrun": false,
+      "cache_bytes": 409290,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.07,
+      "presented": 36,
+      "av_offset": 0.07,
+      "underrun": false,
+      "cache_bytes": 409290,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.114,
+      "presented": 37,
+      "av_offset": 0.03,
+      "underrun": false,
+      "cache_bytes": 411570,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.154,
+      "presented": 37,
+      "av_offset": 0.07,
+      "underrun": false,
+      "cache_bytes": 411570,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.197,
+      "presented": 38,
+      "av_offset": 0.03,
+      "underrun": false,
+      "cache_bytes": 410685,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.24,
+      "presented": 38,
+      "av_offset": 0.074,
+      "underrun": false,
+      "cache_bytes": 410685,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.274,
+      "presented": 39,
+      "av_offset": 0.024,
+      "underrun": false,
+      "cache_bytes": 405030,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.315,
+      "presented": 39,
+      "av_offset": 0.065,
+      "underrun": false,
+      "cache_bytes": 405030,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.359,
+      "presented": 40,
+      "av_offset": 0.025,
+      "underrun": false,
+      "cache_bytes": 399855,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.397,
+      "presented": 40,
+      "av_offset": 0.064,
+      "underrun": false,
+      "cache_bytes": 399510,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.436,
+      "presented": 41,
+      "av_offset": 0.02,
+      "underrun": false,
+      "cache_bytes": 399510,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.47,
+      "presented": 41,
+      "av_offset": 0.053,
+      "underrun": false,
+      "cache_bytes": 399510,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.505,
+      "presented": 42,
+      "av_offset": 0.005,
+      "underrun": false,
+      "cache_bytes": 401700,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.039,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 0,
+      "inflight": 25
+    },
+    {
+      "t_audio": 1.073,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 0,
+      "inflight": 25
+    },
+    {
+      "t_audio": 1.116,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 0,
+      "inflight": 25
+    },
+    {
+      "t_audio": 1.15,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 0,
+      "inflight": 26
+    },
+    {
+      "t_audio": 1.191,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 0,
+      "inflight": 26
+    },
+    {
+      "t_audio": 1.225,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 68670,
+      "inflight": 21
+    },
+    {
+      "t_audio": 1.259,
+      "presented": 15,
+      "av_offset": 0.009,
+      "underrun": false,
+      "cache_bytes": 180915,
+      "inflight": 12
+    },
+    {
+      "t_audio": 1.297,
+      "presented": 15,
+      "av_offset": 0.047,
+      "underrun": false,
+      "cache_bytes": 297330,
+      "inflight": 3
+    },
+    {
+      "t_audio": 1.341,
+      "presented": 16,
+      "av_offset": 0.007,
+      "underrun": false,
+      "cache_bytes": 314295,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.383,
+      "presented": 16,
+      "av_offset": 0.049,
+      "underrun": false,
+      "cache_bytes": 314295,
+      "inflight": 3
+    },
+    {
+      "t_audio": 1.426,
+      "presented": 17,
+      "av_offset": 0.009,
+      "underrun": false,
+      "cache_bytes": 312030,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.463,
+      "presented": 17,
+      "av_offset": 0.047,
+      "underrun": false,
+      "cache_bytes": 312030,
+      "inflight": 3
+    },
+    {
+      "t_audio": 1.5,
+      "presented": 18,
+      "av_offset": 0.0,
+      "underrun": false,
+      "cache_bytes": 312030,
+      "inflight": 3
+    },
+    {
+      "t_audio": 1.542,
+      "presented": 18,
+      "av_offset": 0.042,
+      "underrun": false,
+      "cache_bytes": 291480,
+      "inflight": 3
+    },
+    {
+      "t_audio": 1.577,
+      "presented": 18,
+      "av_offset": 0.077,
+      "underrun": false,
+      "cache_bytes": 302865,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.616,
+      "presented": 19,
+      "av_offset": 0.033,
+      "underrun": false,
+      "cache_bytes": 302865,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.658,
+      "presented": 19,
+      "av_offset": 0.074,
+      "underrun": false,
+      "cache_bytes": 302865,
+      "inflight": 3
+    },
+    {
+      "t_audio": 1.693,
+      "presented": 20,
+      "av_offset": 0.026,
+      "underrun": false,
+      "cache_bytes": 300210,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.736,
+      "presented": 20,
+      "av_offset": 0.069,
+      "underrun": false,
+      "cache_bytes": 300210,
+      "inflight": 3
+    },
+    {
+      "t_audio": 1.771,
+      "presented": 21,
+      "av_offset": 0.021,
+      "underrun": false,
+      "cache_bytes": 300210,
+      "inflight": 3
+    },
+    {
+      "t_audio": 1.814,
+      "presented": 21,
+      "av_offset": 0.064,
+      "underrun": false,
+      "cache_bytes": 300210,
+      "inflight": 4
+    },
+    {
+      "t_audio": 1.849,
+      "presented": 22,
+      "av_offset": 0.016,
+      "underrun": false,
+      "cache_bytes": 300210,
+      "inflight": 4
+    },
+    {
+      "t_audio": 1.89,
+      "presented": 22,
+      "av_offset": 0.057,
+      "underrun": false,
+      "cache_bytes": 300210,
+      "inflight": 5
+    },
+    {
+      "t_audio": 1.934,
+      "presented": 23,
+      "av_offset": 0.017,
+      "underrun": false,
+      "cache_bytes": 281475,
+      "inflight": 4
+    },
+    {
+      "t_audio": 1.968,
+      "presented": 23,
+      "av_offset": 0.051,
+      "underrun": false,
+      "cache_bytes": 281475,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.011,
+      "presented": 24,
+      "av_offset": 0.011,
+      "underrun": false,
+      "cache_bytes": 279930,
+      "inflight": 4
+    },
+    {
+      "t_audio": 2.047,
+      "presented": 24,
+      "av_offset": 0.047,
+      "underrun": false,
+      "cache_bytes": 279930,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.088,
+      "presented": 25,
+      "av_offset": 0.004,
+      "underrun": false,
+      "cache_bytes": 274440,
+      "inflight": 4
+    },
+    {
+      "t_audio": 2.127,
+      "presented": 25,
+      "av_offset": 0.043,
+      "underrun": false,
+      "cache_bytes": 274440,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.169,
+      "presented": 26,
+      "av_offset": 0.002,
+      "underrun": false,
+      "cache_bytes": 274440,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.205,
+      "presented": 26,
+      "av_offset": 0.038,
+      "underrun": false,
+      "cache_bytes": 260460,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.242,
+      "presented": 26,
+      "av_offset": 0.075,
+      "underrun": false,
+      "cache_bytes": 273030,
+      "inflight": 4
+    },
+    {
+      "t_audio": 2.277,
+      "presented": 27,
+      "av_offset": 0.027,
+      "underrun": false,
+      "cache_bytes": 273030,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.315,
+      "presented": 27,
+      "av_offset": 0.065,
+      "underrun": false,
+      "cache_bytes": 286830,
+      "inflight": 4
+    },
+    {
+      "t_audio": 2.349,
+      "presented": 28,
+      "av_offset": 0.015,
+      "underrun": false,
+      "cache_bytes": 339060,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.382,
+      "presented": 28,
+      "av_offset": 0.049,
+      "underrun": false,
+      "cache_bytes": 339060,
+      "inflight": 4
+    },
+    {
+      "t_audio": 2.426,
+      "presented": 29,
+      "av_offset": 0.009,
+      "underrun": false,
+      "cache_bytes": 404505,
+      "inflight": 2
+    },
+    {
+      "t_audio": 2.459,
+      "presented": 29,
+      "av_offset": 0.042,
+      "underrun": false,
+      "cache_bytes": 404505,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.493,
+      "presented": 29,
+      "av_offset": 0.076,
+      "underrun": false,
+      "cache_bytes": 408975,
+      "inflight": 2
+    },
+    {
+      "t_audio": 2.526,
+      "presented": 30,
+      "av_offset": 0.026,
+      "underrun": false,
+      "cache_bytes": 408975,
+      "inflight": 2
+    },
+    {
+      "t_audio": 2.56,
+      "presented": 30,
+      "av_offset": 0.06,
+      "underrun": false,
+      "cache_bytes": 408975,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.593,
+      "presented": 31,
+      "av_offset": 0.01,
+      "underrun": false,
+      "cache_bytes": 408600,
+      "inflight": 2
+    },
+    {
+      "t_audio": 2.627,
+      "presented": 31,
+      "av_offset": 0.043,
+      "underrun": false,
+      "cache_bytes": 408600,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.66,
+      "presented": 31,
+      "av_offset": 0.077,
+      "underrun": false,
+      "cache_bytes": 403440,
+      "inflight": 2
+    },
+    {
+      "t_audio": 2.694,
+      "presented": 32,
+      "av_offset": 0.027,
+      "underrun": false,
+      "cache_bytes": 403440,
+      "inflight": 2
+    },
+    {
+      "t_audio": 2.727,
+      "presented": 32,
+      "av_offset": 0.061,
+      "underrun": false,
+      "cache_bytes": 403440,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.761,
+      "presented": 33,
+      "av_offset": 0.011,
+      "underrun": false,
+      "cache_bytes": 403440,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.795,
+      "presented": 33,
+      "av_offset": 0.045,
+      "underrun": false,
+      "cache_bytes": 388470,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.835,
+      "presented": 34,
+      "av_offset": 0.001,
+      "underrun": false,
+      "cache_bytes": 400440,
+      "inflight": 2
+    },
+    {
+      "t_audio": 2.869,
+      "presented": 34,
+      "av_offset": 0.036,
+      "underrun": false,
+      "cache_bytes": 400440,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.911,
+      "presented": 34,
+      "av_offset": 0.078,
+      "underrun": false,
+      "cache_bytes": 400440,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.945,
+      "presented": 35,
+      "av_offset": 0.029,
+      "underrun": false,
+      "cache_bytes": 400440,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.979,
+      "presented": 35,
+      "av_offset": 0.062,
+      "underrun": false,
+      "cache_bytes": 409290,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.015,
+      "presented": 36,
+      "av_offset": 0.015,
+      "underrun": false,
+      "cache_bytes": 409290,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.05,
+      "presented": 36,
+      "av_offset": 0.05,
+      "underrun": false,
+      "cache_bytes": 409290,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.086,
+      "presented": 37,
+      "av_offset": 0.003,
+      "underrun": false,
+      "cache_bytes": 409290,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.123,
+      "presented": 37,
+      "av_offset": 0.04,
+      "underrun": false,
+      "cache_bytes": 396345,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.161,
+      "presented": 37,
+      "av_offset": 0.078,
+      "underrun": false,
+      "cache_bytes": 396345,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.201,
+      "presented": 38,
+      "av_offset": 0.035,
+      "underrun": false,
+      "cache_bytes": 396345,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.241,
+      "presented": 38,
+      "av_offset": 0.074,
+      "underrun": false,
+      "cache_bytes": 405030,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.276,
+      "presented": 39,
+      "av_offset": 0.026,
+      "underrun": false,
+      "cache_bytes": 405030,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.318,
+      "presented": 39,
+      "av_offset": 0.068,
+      "underrun": false,
+      "cache_bytes": 405030,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.358,
+      "presented": 40,
+      "av_offset": 0.025,
+      "underrun": false,
+      "cache_bytes": 405030,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.392,
+      "presented": 40,
+      "av_offset": 0.059,
+      "underrun": false,
+      "cache_bytes": 388695,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.432,
+      "presented": 41,
+      "av_offset": 0.015,
+      "underrun": false,
+      "cache_bytes": 388695,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.473,
+      "presented": 41,
+      "av_offset": 0.056,
+      "underrun": false,
+      "cache_bytes": 388125,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.515,
+      "presented": 42,
+      "av_offset": 0.015,
+      "underrun": false,
+      "cache_bytes": 388125,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.556,
+      "presented": 42,
+      "av_offset": 0.056,
+      "underrun": false,
+      "cache_bytes": 391035,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.594,
+      "presented": 43,
+      "av_offset": 0.011,
+      "underrun": false,
+      "cache_bytes": 407220,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.635,
+      "presented": 43,
+      "av_offset": 0.051,
+      "underrun": false,
+      "cache_bytes": 407220,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.669,
+      "presented": 44,
+      "av_offset": 0.002,
+      "underrun": false,
+      "cache_bytes": 407220,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.702,
+      "presented": 44,
+      "av_offset": 0.036,
+      "underrun": false,
+      "cache_bytes": 298500,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.746,
+      "presented": 44,
+      "av_offset": 0.079,
+      "underrun": false,
+      "cache_bytes": 313095,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.78,
+      "presented": 45,
+      "av_offset": 0.03,
+      "underrun": false,
+      "cache_bytes": 313095,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.814,
+      "presented": 45,
+      "av_offset": 0.064,
+      "underrun": false,
+      "cache_bytes": 313095,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.848,
+      "presented": 46,
+      "av_offset": 0.014,
+      "underrun": false,
+      "cache_bytes": 309150,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.882,
+      "presented": 46,
+      "av_offset": 0.049,
+      "underrun": false,
+      "cache_bytes": 309150,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.917,
+      "presented": 46,
+      "av_offset": 0.083,
+      "underrun": false,
+      "cache_bytes": 307215,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.952,
+      "presented": 47,
+      "av_offset": 0.035,
+      "underrun": false,
+      "cache_bytes": 307215,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.989,
+      "presented": 47,
+      "av_offset": 0.072,
+      "underrun": false,
+      "cache_bytes": 307215,
+      "inflight": 3
+    },
+    {
+      "t_audio": 4.029,
+      "presented": 48,
+      "av_offset": 0.029,
+      "underrun": false,
+      "cache_bytes": 307215,
+      "inflight": 3
+    },
+    {
+      "t_audio": 4.067,
+      "presented": 48,
+      "av_offset": 0.067,
+      "underrun": false,
+      "cache_bytes": 294285,
+      "inflight": 3
+    },
+    {
+      "t_audio": 4.103,
+      "presented": 49,
+      "av_offset": 0.02,
+      "underrun": false,
+      "cache_bytes": 307035,
+      "inflight": 2
+    },
+    {
+      "t_audio": 4.146,
+      "presented": 49,
+      "av_offset": 0.063,
+      "underrun": false,
+      "cache_bytes": 307035,
+      "inflight": 3
+    },
+    {
+      "t_audio": 4.181,
+      "presented": 50,
+      "av_offset": 0.014,
+      "underrun": false,
+      "cache_bytes": 309000,
+      "inflight": 2
+    },
+    {
+      "t_audio": 4.216,
+      "presented": 50,
+      "av_offset": 0.049,
+      "underrun": false,
+      "cache_bytes": 309000,
+      "inflight": 3
+    },
+    {
+      "t_audio": 4.25,
+      "presented": 50,
+      "av_offset": 0.083,
+      "underrun": false,
+      "cache_bytes": 310605,
+      "inflight": 2
+    },
+    {
+      "t_audio": 4.284,
+      "presented": 51,
+      "av_offset": 0.034,
+      "underrun": false,
+      "cache_bytes": 310605,
+      "inflight": 2
+    },
+    {
+      "t_audio": 4.317,
+      "presented": 51,
+      "av_offset": 0.067,
+      "underrun": false,
+      "cache_bytes": 310605,
+      "inflight": 3
+    },
+    {
+      "t_audio": 4.351,
+      "presented": 52,
+      "av_offset": 0.018,
+      "underrun": false,
+      "cache_bytes": 309660,
+      "inflight": 2
+    },
+    {
+      "t_audio": 1.895,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 0,
+      "inflight": 25
+    },
+    {
+      "t_audio": 1.932,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 0,
+      "inflight": 25
+    },
+    {
+      "t_audio": 1.968,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 0,
+      "inflight": 26
+    },
+    {
+      "t_audio": 2.002,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 0,
+      "inflight": 26
+    },
+    {
+      "t_audio": 2.036,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 15795,
+      "inflight": 25
+    },
+    {
+      "t_audio": 2.084,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 90600,
+      "inflight": 19
+    },
+    {
+      "t_audio": 2.12,
+      "presented": null,
+      "av_offset": null,
+      "underrun": true,
+      "cache_bytes": 129255,
+      "inflight": 15
+    },
+    {
+      "t_audio": 2.155,
+      "presented": 25,
+      "av_offset": 0.072,
+      "underrun": false,
+      "cache_bytes": 261060,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.189,
+      "presented": 26,
+      "av_offset": 0.022,
+      "underrun": false,
+      "cache_bytes": 272790,
+      "inflight": 4
+    },
+    {
+      "t_audio": 2.223,
+      "presented": 26,
+      "av_offset": 0.056,
+      "underrun": false,
+      "cache_bytes": 272790,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.259,
+      "presented": 27,
+      "av_offset": 0.009,
+      "underrun": false,
+      "cache_bytes": 272790,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.294,
+      "presented": 27,
+      "av_offset": 0.043,
+      "underrun": false,
+      "cache_bytes": 263115,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.328,
+      "presented": 27,
+      "av_offset": 0.078,
+      "underrun": false,
+      "cache_bytes": 276915,
+      "inflight": 4
+    },
+    {
+      "t_audio": 2.368,
+      "presented": 28,
+      "av_offset": 0.035,
+      "underrun": false,
+      "cache_bytes": 276915,
+      "inflight": 4
+    },
+    {
+      "t_audio": 2.411,
+      "presented": 28,
+      "av_offset": 0.077,
+      "underrun": false,
+      "cache_bytes": 276915,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.447,
+      "presented": 29,
+      "av_offset": 0.03,
+      "underrun": false,
+      "cache_bytes": 276915,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.481,
+      "presented": 29,
+      "av_offset": 0.064,
+      "underrun": false,
+      "cache_bytes": 267675,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.516,
+      "presented": 30,
+      "av_offset": 0.015,
+      "underrun": false,
+      "cache_bytes": 284970,
+      "inflight": 4
+    },
+    {
+      "t_audio": 2.553,
+      "presented": 30,
+      "av_offset": 0.053,
+      "underrun": false,
+      "cache_bytes": 284970,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.586,
+      "presented": 31,
+      "av_offset": 0.003,
+      "underrun": false,
+      "cache_bytes": 284970,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.627,
+      "presented": 31,
+      "av_offset": 0.044,
+      "underrun": false,
+      "cache_bytes": 284970,
+      "inflight": 5
+    },
+    {
+      "t_audio": 2.663,
+      "presented": 31,
+      "av_offset": 0.079,
+      "underrun": false,
+      "cache_bytes": 391965,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.701,
+      "presented": 32,
+      "av_offset": 0.035,
+      "underrun": false,
+      "cache_bytes": 413865,
+      "inflight": 1
+    },
+    {
+      "t_audio": 2.736,
+      "presented": 32,
+      "av_offset": 0.069,
+      "underrun": false,
+      "cache_bytes": 413865,
+      "inflight": 2
+    },
+    {
+      "t_audio": 2.77,
+      "presented": 33,
+      "av_offset": 0.019,
+      "underrun": false,
+      "cache_bytes": 413865,
+      "inflight": 2
+    },
+    {
+      "t_audio": 2.803,
+      "presented": 33,
+      "av_offset": 0.053,
+      "underrun": false,
+      "cache_bytes": 413865,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.837,
+      "presented": 34,
+      "av_offset": 0.003,
+      "underrun": false,
+      "cache_bytes": 413865,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.87,
+      "presented": 34,
+      "av_offset": 0.037,
+      "underrun": false,
+      "cache_bytes": 390480,
+      "inflight": 3
+    },
+    {
+      "t_audio": 2.904,
+      "presented": 34,
+      "av_offset": 0.07,
+      "underrun": false,
+      "cache_bytes": 403215,
+      "inflight": 2
+    },
+    {
+      "t_audio": 2.937,
+      "presented": 35,
+      "av_offset": 0.021,
+      "underrun": false,
+      "cache_bytes": 403215,
+      "inflight": 2
+    },
+    {
+      "t_audio": 2.971,
+      "presented": 35,
+      "av_offset": 0.054,
+      "underrun": false,
+      "cache_bytes": 403215,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.005,
+      "presented": 36,
+      "av_offset": 0.004,
+      "underrun": false,
+      "cache_bytes": 403215,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.038,
+      "presented": 36,
+      "av_offset": 0.038,
+      "underrun": false,
+      "cache_bytes": 403215,
+      "inflight": 4
+    },
+    {
+      "t_audio": 3.072,
+      "presented": 36,
+      "av_offset": 0.072,
+      "underrun": false,
+      "cache_bytes": 395835,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.105,
+      "presented": 37,
+      "av_offset": 0.022,
+      "underrun": false,
+      "cache_bytes": 411570,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.14,
+      "presented": 37,
+      "av_offset": 0.056,
+      "underrun": false,
+      "cache_bytes": 411570,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.174,
+      "presented": 38,
+      "av_offset": 0.007,
+      "underrun": false,
+      "cache_bytes": 410685,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.208,
+      "presented": 38,
+      "av_offset": 0.041,
+      "underrun": false,
+      "cache_bytes": 410685,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.245,
+      "presented": 38,
+      "av_offset": 0.078,
+      "underrun": false,
+      "cache_bytes": 410685,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.299,
+      "presented": 39,
+      "av_offset": 0.036,
+      "underrun": false,
+      "cache_bytes": 405030,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.352,
+      "presented": 40,
+      "av_offset": 0.018,
+      "underrun": false,
+      "cache_bytes": 405030,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.392,
+      "presented": 40,
+      "av_offset": 0.059,
+      "underrun": false,
+      "cache_bytes": 388695,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.431,
+      "presented": 41,
+      "av_offset": 0.014,
+      "underrun": false,
+      "cache_bytes": 399510,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.466,
+      "presented": 41,
+      "av_offset": 0.049,
+      "underrun": false,
+      "cache_bytes": 399510,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.501,
+      "presented": 42,
+      "av_offset": 0.001,
+      "underrun": false,
+      "cache_bytes": 399510,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.534,
+      "presented": 42,
+      "av_offset": 0.034,
+      "underrun": false,
+      "cache_bytes": 399510,
+      "inflight": 4
+    },
+    {
+      "t_audio": 3.572,
+      "presented": 42,
+      "av_offset": 0.072,
+      "underrun": false,
+      "cache_bytes": 391035,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.612,
+      "presented": 43,
+      "av_offset": 0.029,
+      "underrun": false,
+      "cache_bytes": 407220,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.65,
+      "presented": 43,
+      "av_offset": 0.067,
+      "underrun": false,
+      "cache_bytes": 360360,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.685,
+      "presented": 44,
+      "av_offset": 0.018,
+      "underrun": false,
+      "cache_bytes": 360360,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.727,
+      "presented": 44,
+      "av_offset": 0.061,
+      "underrun": false,
+      "cache_bytes": 313095,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.762,
+      "presented": 45,
+      "av_offset": 0.012,
+      "underrun": false,
+      "cache_bytes": 313095,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.796,
+      "presented": 45,
+      "av_offset": 0.046,
+      "underrun": false,
+      "cache_bytes": 313095,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.834,
+      "presented": 46,
+      "av_offset": 0.0,
+      "underrun": false,
+      "cache_bytes": 313095,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.868,
+      "presented": 46,
+      "av_offset": 0.035,
+      "underrun": false,
+      "cache_bytes": 313095,
+      "inflight": 4
+    },
+    {
+      "t_audio": 3.902,
+      "presented": 46,
+      "av_offset": 0.068,
+      "underrun": false,
+      "cache_bytes": 295950,
+      "inflight": 3
+    },
+    {
+      "t_audio": 3.936,
+      "presented": 47,
+      "av_offset": 0.019,
+      "underrun": false,
+      "cache_bytes": 307215,
+      "inflight": 2
+    },
+    {
+      "t_audio": 3.971,
+      "presented": 47,
+      "av_offset": 0.054,
+      "underrun": false,
+      "cache_bytes": 307215,
+      "inflight": 3
+    },
+    {
+      "t_audio": 4.005,
+      "presented": 48,
+      "av_offset": 0.005,
+      "underrun": false,
+      "cache_bytes": 306015,
+      "inflight": 2
+    },
+    {
+      "t_audio": 4.04,
+      "presented": 48,
+      "av_offset": 0.04,
+      "underrun": false,
+      "cache_bytes": 306015,
+      "inflight": 3
+    }
+  ],
+  "report": {
+    "policy": "hold",
+    "ticks": 241,
+    "underruns": 20,
+    "holds": 20,
+    "skips": 0,
+    "late_frames_presented": 99,
+    "max_av_offset_s": 0.0833,
+    "mean_av_offset_s": 0.0372,
+    "cache_peak_bytes": 413865,
+    "cache_cap_bytes": 67108864,
+    "cache_evictions": 0,
+    "stale_frames_dropped": 2,
+    "read_rate": 1.0,
+    "loop_window": null,
+    "submitted_unique_frames": 50,
+    "submitted_all_in_current_region": true
+  }
+}

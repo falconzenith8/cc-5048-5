@@ -1,0 +1,12 @@
+{
+  "vpc": "assets/scene.vpc",
+  "wav": "assets/drums.wav",
+  "frames": 230,
+  "min_points": 634,
+  "max_points": 4143,
+  "crossing_beats": [
+    4.8,
+    7.2
+  ],
+  "replay_plan": "recordings/replay_plan.json"
+}

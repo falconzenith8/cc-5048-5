@@ -1,0 +1,12 @@
+# Runtime (Python 3.11+).  All four are pure wheels except PyOpenGL, which
+# only needs a system OpenGL library at window-creation time; headless use
+# (software rasterizer, virtual audio clock) needs none of the system GL/audio
+# libraries.
+numpy>=2.0
+PyOpenGL>=3.1.10
+glfw>=2.7
+sounddevice>=0.4.6
+pillow>=10.0
+
+# Test only
+pytest>=8.0

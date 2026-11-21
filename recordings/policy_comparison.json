@@ -1,0 +1,38 @@
+{
+  "setup": {
+    "duration": 10.0,
+    "read_rate": 3.5,
+    "loop_window": [
+      4.0,
+      7.0
+    ]
+  },
+  "hold": {
+    "policy": "hold",
+    "ticks": 301,
+    "underruns": 71,
+    "holds": 71,
+    "skips": 0,
+    "late_frames_presented": 100,
+    "max_av_offset_s": 0.0831,
+    "mean_av_offset_s": 0.0313,
+    "cache_peak_bytes": 0,
+    "cache_cap_bytes": 67108864,
+    "cache_evictions": 0,
+    "stale_frames_dropped": 0
+  },
+  "skip": {
+    "policy": "skip",
+    "ticks": 301,
+    "underruns": 77,
+    "holds": 0,
+    "skips": 77,
+    "late_frames_presented": 93,
+    "max_av_offset_s": 1.3324,
+    "mean_av_offset_s": 0.0472,
+    "cache_peak_bytes": 231810,
+    "cache_cap_bytes": 67108864,
+    "cache_evictions": 0,
+    "stale_frames_dropped": 12
+  }
+}
