@@ -14,8 +14,8 @@
     "holds": 71,
     "skips": 0,
     "late_frames_presented": 100,
-    "max_av_offset_s": 0.0831,
-    "mean_av_offset_s": 0.0313,
+    "max_av_offset_s": 0.083,
+    "mean_av_offset_s": 0.0326,
     "cache_peak_bytes": 0,
     "cache_cap_bytes": 67108864,
     "cache_evictions": 0,
@@ -24,15 +24,15 @@
   "skip": {
     "policy": "skip",
     "ticks": 301,
-    "underruns": 77,
+    "underruns": 75,
     "holds": 0,
-    "skips": 77,
-    "late_frames_presented": 93,
-    "max_av_offset_s": 1.3324,
-    "mean_av_offset_s": 0.0472,
-    "cache_peak_bytes": 231810,
+    "skips": 75,
+    "late_frames_presented": 101,
+    "max_av_offset_s": 1.2187,
+    "mean_av_offset_s": 0.0493,
+    "cache_peak_bytes": 0,
     "cache_cap_bytes": 67108864,
     "cache_evictions": 0,
-    "stale_frames_dropped": 12
+    "stale_frames_dropped": 0
   }
 }

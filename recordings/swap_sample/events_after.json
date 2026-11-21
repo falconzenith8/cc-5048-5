@@ -1,0 +1,16 @@
+{
+  "events": [
+    {
+      "id": "M1",
+      "time": 1.0,
+      "surface_id": "S50",
+      "position": [
+        0.7266,
+        0.3413,
+        0.3477
+      ]
+    }
+  ],
+  "skipped": [],
+  "skipped_frames": []
+}

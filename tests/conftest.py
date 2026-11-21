@@ -23,3 +23,23 @@ def assets(tmp_path_factory):
         "root": str(root),
         **summary,
     }
+
+
+@pytest.fixture(scope="session")
+def turn(tmp_path_factory):
+    """Turn-around capture with depth ground truth (built once)."""
+    from volumeview.synth import TurnScene
+
+    scene = TurnScene()
+    return {"scene": scene, "frames": scene.frames(),
+            "gt": scene.ground_truth()}
+
+
+@pytest.fixture(scope="session")
+def swap(tmp_path_factory):
+    """Two look-alike actors swapping positions (built once)."""
+    from volumeview.synth import SwapScene
+
+    scene = SwapScene()
+    return {"scene": scene, "frames": scene.frames(),
+            "gt": scene.ground_truth()}

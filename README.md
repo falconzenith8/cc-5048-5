@@ -64,6 +64,45 @@
 缓存硬上限由 `BoundedFrameCache(max_bytes=64MiB, max_frames=48)` 强制，
 超限时驱逐离播放头最远的帧并计入 `cache_evictions`。
 
+## 补帧层（时间线视图）
+
+时间线视图（`volumeview/edits.py` 的 `TimelineView`，无头模型，GL 界面
+直接绑定它）提供**可撤回的补帧层**：在两个关键帧之间插出缺失帧，剪辑
+轨上的接触标记引用**补间表面的身份**（surface id），而不是某个位置。
+
+| 需求 | 实现位置 |
+| --- | --- |
+| 可撤回的补帧层（区域、否决、删除、锁定、单侧策略全部可 undo/redo） | `volumeview/edits.py`（memento 命令栈） |
+| 面片分割、对应表（分组/否决/删除/核准）、表面身份注册 | `volumeview/surfaces.py` |
+| 几何对应足够处双向插值；单侧可见处保留单侧证据或显示缺测 | `volumeview/tween.py`（coverage 分析 + `OneSided.KEEP/GAP`） |
+| 迟到原始帧：先发出替换对应表，可信才搬移标记，否则挂起关联 | `volumeview/tween.py`（`reconcile_late_frame`）、`edits.py`（`on_late_frame`） |
+| 手工锁定的修订与迟到原帧冲突时提示冲突、保留锁定 | `reconcile_late_frame`（`conflicts`） |
+| 删对应表一项再导出，接触音不贴到另一演员身上 | `tests/test_edits.py::test_delete_entry_export_keeps_contact_off_other_actor` |
+| 带深度真值的转身动作挖两帧，原视角+侧面量轮廓/漏面/音轨同步 | `volumeview/synth.py`（`TurnScene`）、`tools/tween_eval.py` |
+| 保存后倒序拖播，临时补片与原帧各有来源 | `TimelineView.save/load` + `frame_at` provenance |
+| 两人交换站位、点色近似相同的开放样例 | `assets/swap.vpc`、`assets/swap_project.json`、`tools/swap_sample.py` |
+| 只否决错误那一组对应，重算保留已核准区域与历史音频标记 | `veto_group` / `recompute_region`（核准钉住、否决持久） |
+
+转身场景实测（挖掉第 10、11 两帧，`recordings/tween_eval/metrics.json`）：
+
+| 指标 | 原视角 | 侧面 |
+| --- | --- | --- |
+| 轮廓 IoU | ≈ 0.87 | ≈ 0.82 |
+| 漏面率 | ≈ 3–6% | ≈ 5–7% |
+| 音轨同步误差 | < 半帧（≈ 0.04 s） | 同左 |
+
+交换站位样例（`recordings/swap_sample/metrics.json`）：朴素对应把 A 的
+起点错连到 B 的终点，侧视在两条车道之间长出短暂虚假表面（z 空隙带
+补点数 829）；否决该组对应后降为 0，已核准的立柱对应与历史接触标记
+保留；钉上正确的 A→A 对应并恢复标记后，导出的接触音回到演员 A
+（x≈0.73）而不是错误身份一侧（x≈-0.27）。
+
+```bash
+# 补帧层复验（无头）
+python -m volumeview.cli tween-eval     # 转身场景：轮廓/漏面/音轨同步
+python -m volumeview.cli swap-sample    # 交换站位：错误连接→否决→修复
+```
+
 ## 安装与运行
 
 ```bash
@@ -110,5 +149,8 @@ python -m volumeview.cli compare --read-rate 3.5
 pytest -q
 ```
 
-19 个测试覆盖容器往返、变长点云、乱序保证、缓存硬上限、epoch 失效、两种
-欠载语义、z-buffer 遮挡（背面揭示）、seek/循环区域约束和端到端回放。
+35 个测试覆盖容器往返、变长点云、乱序保证、缓存硬上限、epoch 失效、
+两种欠载语义、z-buffer 遮挡（背面揭示）、seek/循环区域约束、端到端
+回放，以及补帧层：分割确定性、遮挡前后点数与可见表面变化、双向/单侧
+插值、迟到帧替换与标记迁移/挂起、锁定冲突、撤销重做、保存加载后倒序
+拖播来源、删除对应项后的导出安全性、否决组重算保留核准与历史标记。

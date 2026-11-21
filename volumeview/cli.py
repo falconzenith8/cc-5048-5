@@ -1,10 +1,12 @@
 """Command line entry point.
 
 Subcommands:
-  assets    generate the scene, frame container, drum track and beat map
-  play      interactive OpenGL window (falls back with a clear message)
-  headless  offline replay that renders PNGs and prints policy metrics
-  compare   run both underrun policies on the same recording and compare
+  assets      generate the scene, frame container, drum track and beat map
+  play        interactive OpenGL window (falls back with a clear message)
+  headless    offline replay that renders PNGs and prints policy metrics
+  compare     run both underrun policies on the same recording and compare
+  tween-eval  evaluate the interpolation layer against depth ground truth
+  swap-sample two-actor swap sample: wrong correspondence, veto, repair
 """
 
 from __future__ import annotations
@@ -48,6 +50,18 @@ def main(argv: list[str] | None = None) -> int:
     p_cmp.add_argument("--json", action="store_true",
                        help="emit machine-readable JSON")
 
+    p_tween = sub.add_parser("tween-eval",
+                             help="interpolation layer vs depth ground truth")
+    p_tween.add_argument("--vpc", default="assets/turn.vpc")
+    p_tween.add_argument("--gt", default="assets/turn_gt.npz")
+    p_tween.add_argument("--out", default="recordings/tween_eval")
+
+    p_swap = sub.add_parser("swap-sample",
+                            help="two-actor swap: veto wrong correspondence")
+    p_swap.add_argument("--vpc", default="assets/swap.vpc")
+    p_swap.add_argument("--gt", default="assets/swap_gt.npz")
+    p_swap.add_argument("--out", default="recordings/swap_sample")
+
     args = parser.parse_args(argv)
 
     if args.cmd == "assets":
@@ -77,6 +91,16 @@ def main(argv: list[str] | None = None) -> int:
         from tools.compare_policies import compare
         compare(args.vpc, args.wav, duration=args.duration,
                 read_rate=args.read_rate, as_json=args.json)
+        return 0
+
+    if args.cmd == "tween-eval":
+        from tools.tween_eval import run_eval
+        run_eval(args.vpc, args.gt, args.out)
+        return 0
+
+    if args.cmd == "swap-sample":
+        from tools.swap_sample import run_swap
+        run_swap(args.vpc, args.gt, args.out)
         return 0
 
     return 1

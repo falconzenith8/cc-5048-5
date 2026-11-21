@@ -4,6 +4,9 @@ Outputs:
   assets/scene.vpc (+ .idx)   volumetric frames, variable count/order
   assets/drums.wav            100 bpm reference drum track
   assets/beatmap.json         beat times and screen-crossing annotation
+  assets/turn.vpc (+ turn_gt.npz)   turn-around capture with depth truth
+  assets/swap.vpc (+ swap_gt.npz)   two actors swapping positions
+  assets/swap_project.json    open tween-layer sample (region + marker)
   recordings/replay_plan.json the injected out-of-order delivery plan
 """
 
@@ -22,8 +25,15 @@ from volumeview.audio import (BPM, DURATION, SAMPLE_RATE, build_beatmap,
 from volumeview.frame import FrameWriter
 from volumeview.scene import make_frame
 from volumeview.streaming import OutOfOrderNetwork
+from volumeview.synth import SwapScene, TurnScene
 
 FPS = 12.0
+
+
+def _write_scene(path: str, frames: dict[int, object]) -> None:
+    with FrameWriter(path) as writer:
+        for i in sorted(frames):
+            writer.write(frames[i])
 
 
 def generate(assets_dir: str, recordings_dir: str) -> dict:
@@ -77,6 +87,29 @@ def generate(assets_dir: str, recordings_dir: str) -> dict:
         "crossing_beats": [beat_a, beat_b],
         "replay_plan": plan_path,
     }
+
+    # Tween-layer scenes: turn-around with depth truth, and the two-actor
+    # position swap with its open (unrepaired) project sample.
+    turn = TurnScene()
+    turn_vpc = os.path.join(assets_dir, "turn.vpc")
+    _write_scene(turn_vpc, turn.frames())
+    turn_gt = os.path.join(assets_dir, "turn_gt.npz")
+    turn.save_ground_truth(turn_gt)
+    summary["turn"] = {"vpc": turn_vpc, "gt": turn_gt,
+                       "frames": turn.n,
+                       "contact": turn.contact_event()}
+
+    swap = SwapScene()
+    swap_vpc = os.path.join(assets_dir, "swap.vpc")
+    _write_scene(swap_vpc, swap.frames())
+    swap_gt = os.path.join(assets_dir, "swap_gt.npz")
+    swap.save_ground_truth(swap_gt)
+    from tools.swap_sample import build_open_sample
+    swap_project = os.path.join(assets_dir, "swap_project.json")
+    build_open_sample(swap_vpc, swap_project)
+    summary["swap"] = {"vpc": swap_vpc, "gt": swap_gt,
+                       "frames": swap.n, "project": swap_project}
+
     with open(os.path.join(recordings_dir, "asset_manifest.json"),
               "w", encoding="utf-8") as fh:
         json.dump(summary, fh, indent=2)

@@ -1,0 +1,52 @@
+{
+  "region": [
+    10,
+    13
+  ],
+  "drop": [
+    11,
+    12
+  ],
+  "cross_entry": [
+    "f10:0",
+    "f13:0"
+  ],
+  "marker": "M1",
+  "spurious_points_before": 829,
+  "export_before": {
+    "events": [
+      {
+        "id": "M1",
+        "time": 1.0,
+        "surface_id": "S45",
+        "position": [
+          -0.2685,
+          0.3332,
+          -0.1157
+        ]
+      }
+    ],
+    "skipped": []
+  },
+  "approved_pairs": [
+    "f10:1<->f13:1"
+  ],
+  "spurious_points_after_veto": 0,
+  "marker_state_after_veto": "suspended",
+  "export_after": {
+    "events": [
+      {
+        "id": "M1",
+        "time": 1.0,
+        "surface_id": "S50",
+        "position": [
+          0.7266,
+          0.3413,
+          0.3477
+        ]
+      }
+    ],
+    "skipped": []
+  },
+  "spurious_points_final": 0
+}

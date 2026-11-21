@@ -1,0 +1,67 @@
+{
+  "drop": [
+    10,
+    11
+  ],
+  "region": 1,
+  "frames": {
+    "10": {
+      "provenance": "interp",
+      "npoints": 3710,
+      "bilateral_points": 3056,
+      "onesided_points": 654,
+      "missing_points": 0,
+      "front": {
+        "silhouette_iou": 0.8711,
+        "missing_surface": 0.0289
+      },
+      "side": {
+        "silhouette_iou": 0.8152,
+        "missing_surface": 0.0507
+      }
+    },
+    "11": {
+      "provenance": "interp",
+      "npoints": 3745,
+      "bilateral_points": 3091,
+      "onesided_points": 654,
+      "missing_points": 0,
+      "front": {
+        "silhouette_iou": 0.8625,
+        "missing_surface": 0.0562
+      },
+      "side": {
+        "silhouette_iou": 0.8329,
+        "missing_surface": 0.0695
+      }
+    }
+  },
+  "audio_sync": {
+    "gt_contact_time": 0.8728625421345705,
+    "detected_contact_time": 0.8333333333333334,
+    "sync_error_s": 0.0395
+  },
+  "reverse_scrub_provenance": {
+    "20": "original",
+    "19": "original",
+    "18": "original",
+    "17": "original",
+    "16": "original",
+    "15": "original",
+    "14": "original",
+    "13": "original",
+    "12": "original",
+    "11": "interp",
+    "10": "interp",
+    "9": "original",
+    "8": "original",
+    "7": "original",
+    "6": "original",
+    "5": "original",
+    "4": "original",
+    "3": "original",
+    "2": "original",
+    "1": "original",
+    "0": "original"
+  }
+}
